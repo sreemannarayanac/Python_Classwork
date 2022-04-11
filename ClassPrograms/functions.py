@@ -9,4 +9,6 @@ def squaring(j):
   return lambda k : k ** j
 
 power3 = squaring(3)
-print(power3(5))
+power4 = squaring(4)
+power5 = squaring(5)
+print(power5(5),"\n",power4(5),"\n",power3(5))
