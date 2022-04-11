@@ -23,3 +23,5 @@ l1.extend(la)
 print(l1)
 l2.extend(l1)
 print(l2)
+
+# remove and pop
