@@ -20,8 +20,13 @@ print('\n\n')
 # Extend
 la = ['a', 'a', 'a']
 l1.extend(la)
-print(l1)
+print('l1\n',l1,'\n')
 l2.extend(l1)
-print(l2)
+print('l2\n',l2)
 
+print('\n\n')
 # remove and pop
+l2.remove('a') # Removes First Occurence of 'a' from the list
+print('l2 is now :\n',l2)
+l1.pop() # Removes last element from the list
+print('\nl1 is now :\n',l1)
