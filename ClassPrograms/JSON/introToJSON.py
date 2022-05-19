@@ -10,5 +10,5 @@ import json
 example = {
     "Name" : "Java Script",
     "Age" : 27,
-    "Qualities" : ["high-level", "dynamic typing", ""]
+    "Qualities" : ["high-level", "dynamic typing", "prototype-based object-orientation", ""]
 }
