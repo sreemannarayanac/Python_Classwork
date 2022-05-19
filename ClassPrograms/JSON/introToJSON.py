@@ -23,8 +23,8 @@ print("\n",example)
 print("\nYou can see the difference in None and null, also in True False values")
 print("\n",isItLoading)
 
-# Using 
-example = json.dumps(example)
+# Using indent
+example = json.dumps(example, indent=3)
 isItLoading = json.loads(example)
 
 print("\n",example)
