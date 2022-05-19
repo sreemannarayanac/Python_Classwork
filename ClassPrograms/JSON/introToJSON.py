@@ -24,7 +24,7 @@ print("\nYou can see the difference in None and null, also in True False values"
 print("\n",isItLoading)
 
 # Using indent
-example = json.dumps(example, indent=4)
+example = json.dumps(example, indent=10)
 isItLoading = json.loads(example)
 
 print("\n",example)
