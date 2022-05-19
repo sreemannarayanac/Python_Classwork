@@ -10,9 +10,15 @@ import json
 example = {
     "Name" : "Java Script",
     "Age" : 27,
-    "Qualities" : ["high-level", "dynamic typing", "prototype-based object-orientation", "first-class functions"]
+    "Qualities" : ["high-level", "dynamic typing", "prototype-based object-orientation", "first-class functions"],
     "Am I learning it?" : True,
     "Total projects completed = " : None,
     "Is it a bad choice?" : False
 }
 
+example = json.dumps(example)
+isItLoading = json.loads(example)
+
+print(example)
+print("\nYou can see the difference in None and null, also in True False values\n")
+print(isItLoading)
