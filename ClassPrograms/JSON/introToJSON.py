@@ -19,6 +19,14 @@ example = {
 example = json.dumps(example)
 isItLoading = json.loads(example)
 
-print(example)
-print("\nYou can see the difference in None and null, also in True False values\n")
-print(isItLoading)
+print("\n",example)
+print("\nYou can see the difference in None and null, also in True False values")
+print("\n",isItLoading)
+
+# Using 
+example = json.dumps(example)
+isItLoading = json.loads(example)
+
+print("\n",example)
+print("\nYou can see the difference in None and null, also in True False values")
+print("\n",isItLoading)
