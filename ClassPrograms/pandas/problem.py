@@ -8,4 +8,11 @@ record = {
 
 df = pd.DataFrame(record)
 
-avg_age = 
+sum_age = 0
+count = 0
+
+for i in df['Age']:
+    sum_age += i
+    count +=1
+
+print(sum_age/count)
