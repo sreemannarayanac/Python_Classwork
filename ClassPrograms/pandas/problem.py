@@ -11,6 +11,9 @@ df = pd.DataFrame(record)
 sum_age = 0
 count = 0
 
+for j in df:
+    print([i for i in df[j]])
+
 for i in df['Age']:
     sum_age += i
     count +=1
