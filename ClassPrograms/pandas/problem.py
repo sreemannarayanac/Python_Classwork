@@ -8,3 +8,4 @@ record = {
 
 df = pd.DataFrame(record)
 
+avg_age = 
