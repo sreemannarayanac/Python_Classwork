@@ -8,7 +8,7 @@ soup = bs(src, 'lxml')
 
 programs = []
 
-for h2_tag in soup.find_all('h2'):
+for h2_tag in soup.find_all('li'):
     if h2_tag.text == "Admissions ":
         a_tag = h2_tag.find('a')
         programs.append(a_tag.attrs['title'])
