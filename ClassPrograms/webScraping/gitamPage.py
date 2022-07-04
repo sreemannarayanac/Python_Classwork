@@ -13,7 +13,7 @@ for li in soup.find_all('li'):
     if a_tag:
         img_tag = a_tag.find('img')
         if img_tag:
-            (img_tag.attrs['title'])
+           programs.append(img_tag.attrs['title'])
         else:
             continue
 
