@@ -1,5 +1,5 @@
 import requests as rs
-from bs4 import BeautifulSoup as bs
+from bs4 import BeautifulSoup
 
 result = rs.get('https://www.gitam.edu/')
 
@@ -7,7 +7,7 @@ result = rs.get('https://www.gitam.edu/')
 
 src = result.content # Gets source code
 
-soup = bs(result, 'lxml')
+soup = BeautifulSoup(src, 'lxml')
 
-headers = soup.findall('h1')
+headers = soup.find_all('h1')
 print(headers)
