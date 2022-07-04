@@ -10,10 +10,11 @@ programs = []
 
 for li in soup.find_all('li'):
     a_tag = li.find('a')
-    img_tag = a_tag.find('img')
-    if img_tag:
-        print(img_tag.attrs['title'])
-    else:
-        continue
+    if a_tag:
+        img_tag = a_tag.find('img')
+        if img_tag:
+            (img_tag.attrs['title'])
+        else:
+            continue
 
 print(programs)
