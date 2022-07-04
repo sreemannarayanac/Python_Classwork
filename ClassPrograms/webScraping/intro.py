@@ -9,5 +9,5 @@ src = result.content # Gets source code
 
 soup = BeautifulSoup(src, 'lxml')
 
-headers = soup.find_all('ul')
+headers = soup.find_all('')
 print(headers)
