@@ -9,7 +9,7 @@ soup = bs(src, 'lxml')
 programs = []
 
 for li in soup.find_all('li'):
-    h5_tag = li.find_all('h5')
-    print(h5_tag)
+    a_tag = li.find('a')
+    print(a_tag.attrs['title'])
 
 print(programs)
